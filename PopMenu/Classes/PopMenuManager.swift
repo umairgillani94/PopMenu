@@ -68,6 +68,10 @@ final public class PopMenuManager: NSObject {
         }
     }
     
+    public func prepareMenu (sourceView: AnyObject? = nil) {
+        prepareViewController(sourceView: sourceView)
+    }
+
 }
 
 // MARK: - Presentations
