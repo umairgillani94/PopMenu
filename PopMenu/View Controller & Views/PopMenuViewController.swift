@@ -618,7 +618,7 @@ extension PopMenuViewController {
         if shouldEnableHaptics {
             // Generate haptics
             if #available(iOS 10.0, *) {
-                Haptic.impact(.medium).generate()
+//                Haptic.impact(.medium).generate()
             }
         }
         
